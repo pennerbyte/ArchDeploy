@@ -1,0 +1,7 @@
+sudo pacman -S firefox keepassxc electrum virt-manager qemu tor openvpn
+
+# Setup TOR-Proxy
+systemctl start tor
+systemctl enable tor
+
+# Setup DNS-Over-TOR
